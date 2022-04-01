@@ -593,7 +593,7 @@ progress {
   margin-top: -1rem;
   margin-bottom: 1rem;
   font-size: 0.875em;
-  color: #6c757d;
+  color: #45523e;
 }
 .blockquote-footer::before {
   content: "— ";
@@ -7811,6 +7811,16 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
 
+.bg-darkgreen {
+  --bs-bg-opacity: 1;
+  background-color: #45523e
+}
+
+.bg-brown {
+  --bs-bg-opacity: 1;
+  background-color: #6e5c42
+}
+
 .bg-secondary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
@@ -11472,7 +11482,7 @@ html {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: #45523e/*rgba(26, 188, 156, 0.9)*/;
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
@@ -11500,10 +11510,10 @@ html {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2c3e50;
+  background-color: #45523e;
   color: #fff;
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color: #6e5c42;
 }
